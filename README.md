@@ -8,3 +8,5 @@ Purchase
 Sales and property reports
 Contact
 For questions, contact @developer-kitten.
+::::
+PUBLISHING OR USE OF THIS CODE WITHOUT PERMISSION MAY LEAD TO LIABILITY.
