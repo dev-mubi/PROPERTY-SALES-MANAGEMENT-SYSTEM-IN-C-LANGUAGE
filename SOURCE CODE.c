@@ -363,13 +363,13 @@ void updateprop()
 
 void del()
 {
-    int delete,found=0;
+    int delet,found=0;
     printf("\nENTER ID OF PROPERTY TO BE DELETED\n\n");
-    scanf("%d", & delete);
+    scanf("%d", & delet);
 
     for(int i=1;i<propertycount;i++)
     {
-        if(prop[i].sellerid==currentseller && delete==prop[i].propid)
+        if(prop[i].sellerid==currentseller && delet==prop[i].propid)
         {
             prop[i]=prop[i+1];
             found=1;
